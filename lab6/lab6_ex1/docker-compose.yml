@@ -25,7 +25,7 @@ services:
     environment:
       - MODEL_REPO=/usr/src/myapp/models
     volumes:
-      - "/home/indika_kuma/models:/usr/src/myapp/models"
+      - "/home/s_sabitli/models:/usr/src/myapp/models"
   prediction_ui:
     build:
       context: ../../lab2/prediction-ui
